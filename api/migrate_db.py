@@ -1,9 +1,9 @@
 from sqlalchemy import create_engine
 from api.db import Base  # Baseインポートの更新
-from api.models.users import User  
-from api.models.gyms import Gym  
-from api.models.user_gyms import UserGym
-from api.models.check_ins import CheckIn
+from api.models.user import User  
+from api.models.gym import Gym  
+from api.models.user_gym import UserGym,CheckIn
+
 
 # from app.models.users import Base
 

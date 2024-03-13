@@ -10,4 +10,4 @@ class Gym(Base):
     gym_name = Column(String(1024))
     latitude = Column(Float)
     longitude = Column(Float)
-    user_gyms = relationship("UserGym", back_populates="gym")
+    user_gyms = relationship("UserGym", backref="gym")
